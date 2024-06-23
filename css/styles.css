@@ -67,13 +67,14 @@ section{
 .equas{
    height: 130px;
 }
-.calc-button:last-child:hover{
-    background-color: inherit;
-    color: inherit;
-}
-.calc-button:hover{
-    background-color: inherit;
-    color: inherit;
+
+
+
+@media (min-width: 900px) {
+    .calc-button:hover{
+        background-color: inherit;
+        color: inherit;
+    }
 }
 
 @media (max-width: 600px) {
