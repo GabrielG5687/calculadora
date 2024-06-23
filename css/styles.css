@@ -87,6 +87,11 @@ section{
        height: 100px;
     }
 
+    .calc-button:hover{
+        background-color: inherit;
+        color: inherit;
+    }
+
     .calc-button:active{
         background-color: #ffef78;
     }
