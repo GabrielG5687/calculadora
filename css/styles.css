@@ -108,8 +108,4 @@ section{
        height: 100px;
     }
 
-    .calc-button:active{
-        background-color: #ffef78;
-    }
-    
 }
