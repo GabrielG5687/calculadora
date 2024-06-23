@@ -73,8 +73,7 @@ section{
     color: inherit;
 }
 .calc-button:active{
-    background-color: inherit;
-    color: inherit;
+    background-color: #ffef78;
 }
 
 
@@ -92,12 +91,8 @@ section{
     .equas{
        height: 100px;
     }
-    @media (hover: none) {
-        .calc-button:active{
-            background-color: inherit;
-            color: inherit;
-        }
-    }
+   
+
     
 }
 
@@ -119,16 +114,6 @@ section{
     
     .equas{
        height: 100px;
-    }
-    .calc-button:active{
-        background-color: #ffef78;
-    }
-
-    @media (hover: none) {
-        .calc-button:active{
-            background-color: inherit;
-            color: inherit;
-        }
     }
 
 }
