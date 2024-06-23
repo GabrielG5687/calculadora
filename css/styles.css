@@ -34,15 +34,15 @@ section{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgb(35, 35, 35, 0.1);
+    box-shadow: 0 4px 10px rgb(35, 35, 35, 0.1);
     color: #232323;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     background: rgb(255, 255, 255, 0.30);
     border: 1px solid rgb(255,255,255, 0.34);
     flex-basis: 400px;
-    height: 540px;
-    padding: 20px 35px;
+    height: 80%;
+    padding: 4% 5%;
 }
 
 #resultado{
@@ -115,4 +115,8 @@ section{
     flex-basis: 47%;
     height: 65px;
     padding: 70px 35px;
+}
+
+@media screen and (max-width) {
+    
 }
