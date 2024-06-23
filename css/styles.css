@@ -68,10 +68,7 @@ section{
    height: 130px;
 }
 
-.calc-button:hover{
-    background-color: inherit;
-    color: inherit;
-}
+
 @media (max-width: 600px) {
 
     .calc-button{
@@ -87,14 +84,10 @@ section{
        height: 100px;
     }
 
-    .calc-button:hover{
-        background-color: inherit;
-        color: inherit;
-    }
 
     .calc-button:active{
         background-color: #ffef78;
-    }
+    } 
     
 }
 
